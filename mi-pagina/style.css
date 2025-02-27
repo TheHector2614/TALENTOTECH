@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos del encabezado */
+.cabeza {
+    background-color: #4a4e69;
+    color: white;
+    padding: 20px;
+}
+
+.cabeza h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.cabeza h2 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+/* Estilos de la sección de perfil */
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.perfil_imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.perfil_info {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Sección de formación académica */
+.formacion {
+    background-color: #d8e2dc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.formacion h2 {
+    color: #3a3a3a;
+}
+
+/* Sección de habilidades */
+.habilidades {
+    padding: 20px;
+}
+
+.habilidades ul {
+    list-style-type: square;
+    text-align: left;
+    display: inline-block;
+}
+
+/* Sección de listas */
+.listas {
+    background-color: #bde0fe;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.listas ul, .listas ol {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Sección de horario */
+.horario {
+    padding: 20px;
+}
+
+.horario table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.horario th, .horario td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.horario th {
+    background-color: #4a4e69;
+    color: white;
+}
+
+/* Sección de contacto */
+.contacto {
+    background-color: #d8e2dc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contacto form {
+    text-align: left;
+    display: inline-block;
+}
+
+.contacto input, .contacto button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #4a4e69;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #22223b;
+}
